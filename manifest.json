@@ -1,0 +1,20 @@
+{
+	"manifest_version": 2,
+	"name": "Add to Pinboard",
+	"version": "0.2",
+	"description": "Add the current URL to Pinboard.",
+	"permissions": ["tabs", "http://*/*", "https://*/*"],
+	"icons": {
+		"16": "img/pinboard16.png",
+		"48": "img/pinboard48.png",
+		"128": "img/pinboard128.png"
+	},
+	"browser_action": {
+		"default_icon": "img/pinboard16.png",
+		"default_title": "Save the current page to Pinboard"
+	},
+	"background": {
+		"scripts": ["events.js"],
+		"persistent": false
+	}
+}
