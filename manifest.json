@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Add to Pinboard",
-	"version": "0.2",
+	"version": "0.3",
 	"description": "Add the current URL to Pinboard.",
 	"permissions": ["tabs", "http://*/*", "https://*/*"],
 	"icons": {
@@ -16,5 +16,11 @@
 	"background": {
 		"scripts": ["events.js"],
 		"persistent": false
+	},
+	"commands": {
+	  "save-to-pinboard": {
+	    "suggested_key": { "default": "Alt+P" },
+	    "description": "Save the current page to Pinboard"
+	  }
 	}
 }
