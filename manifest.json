@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Add to Pinboard",
+	"name": "Save to Pinboard",
 	"version": "0.3",
-	"description": "Add the current URL to Pinboard.",
+	"description": "Save the current URL to Pinboard",
 	"permissions": ["tabs", "http://*/*", "https://*/*"],
 	"icons": {
 		"16": "img/pinboard16.png",
