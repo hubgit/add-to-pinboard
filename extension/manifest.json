@@ -3,7 +3,7 @@
 	"name": "Save to Pinboard",
 	"version": "0.3",
 	"description": "Save the current URL to Pinboard",
-	"permissions": ["tabs", "http://*/*", "https://*/*"],
+	"permissions": ["activeTab"],
 	"icons": {
 		"16": "img/pinboard16.png",
 		"48": "img/pinboard48.png",
